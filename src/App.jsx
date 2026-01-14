@@ -4,11 +4,11 @@ import AmazonComponent from "./components/AmazonComponent.jsx";
 
 const App = () => {
 return (
-    <div>
+    <>
       <GoogleComponent />
       <AppleComponent />
       <AmazonComponent />
-    </div>
+    </>
   );
 };
 
